@@ -1,0 +1,41 @@
+{
+  "name": "application-name",
+  "version": "0.1.0",
+  "description": "A shord description of the application",
+  "main": "lib/index.js",
+  "scripts": {
+    "startStage": "NODE_ENV=stage nodemon app.js",
+    "test": "grunt test"
+  },
+  "keywords": [
+    "storage"
+  ],
+  "author": "Davide Fiorello <davide@codeflyer.com> (http://github.com/codeflyer/)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.8.0",
+    "codeflyer-errorx": "^0.1.2",
+    "config": "^1.10.0",
+    "connect-flash": "^0.1.1",
+    "connection-store": "^1.0.0",
+    "express": "^4.11.0",
+    "grunt": "^0.4.5",
+    "grunt-mkdir": "^0.1.2",
+    "log4js": "^0.6.22",
+    "mongodb": "^1.4.28"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^1.2.0",
+    "grunt-mocha-istanbul": "^2.3.0",
+    "grunt-mocha-test": "^0.12.6",
+    "grunt-plato": "^1.2.1",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "pow-mongodb-fixtures": "^0.10.0",
+    "readyness": "^0.1.0",
+    "should": "^4.6.1",
+    "sinon": "^1.12.2"
+  }
+}
